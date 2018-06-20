@@ -7,6 +7,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'Misago', 'url': 'http://pypi.python.org/pypi/Misago/0.14.0'},
 	{'name':'django-social-auth', 'url': 'http://pypi.python.org/pypi/django-social-auth/0.7.28'},
 	{'name':'django-social-auth', 'url': 'http://pypi.python.org/pypi/django-social-auth/0.7.28'},
     ]
